@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="assets/challenge-amigo-secreto_pt-main/presente-amigo-secreto.png" alt="Presente Amigo Secreto" width="200">
-</p>
-
 <h1 align="center">🎁 Sorteio de Amigo Secreto 🎁</h1>
 
 <p align="center">
