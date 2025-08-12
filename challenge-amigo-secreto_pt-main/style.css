@@ -1,8 +1,8 @@
 :root {
-    --color-primary: #4B69FD;
+    --color-primary: #0A3D62;
     --color-secondary: #FFF9EB;
     --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
+    --color-button: #ffc400;
     --color-button-hover: #e55720;
     --color-text: #444444;
     --color-white: #FFFFFF;
@@ -37,6 +37,11 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 0 0;
+}
+.header-banner img {
+    max-width: 100%;
+    width: 200px;
+    height: auto;
 }
 
 /* Seção de entrada */
@@ -143,20 +148,35 @@ ul {
 }
 
 /* Botão de sortear título */
-.button-draw {
+.button-draw,
+.button-reset {
     display: flex;
     align-items: center;
+    justify-content: center;
+    gap: 10px;
     width: 100%;
     padding: 10px 40px;
     color: var(--color-white);
-    background-color: var(--color-button);
+background-color: var(--color-button); 
     font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.button-draw img {
-    margin-right: 40px;
-}
-
-.button-draw:hover {
+.button-draw:hover,
+.button-reset:hover {
     background-color: var(--color-button-hover);
+}
+
+.button-draw img,
+.button-reset img {
+    width: 24px;
+    height: 24px;
+}
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaço entre os botões */
 }
