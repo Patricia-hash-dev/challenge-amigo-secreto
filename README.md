@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/presente-amigo-secreto.png" alt="Presente Amigo Secreto" width="200">
+  <img src="assets/challenge-presente-amigo-secreto.png" alt="Presente Amigo Secreto" width="200">
 </p>
 
 <h1 align="center">🎁 Sorteio de Amigo Secreto 🎁</h1>
